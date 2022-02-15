@@ -1,5 +1,7 @@
 # Internet & Network Technologies
 
+**Begin 14.02.2022**
+
 ## Standards
 
 - Standards declared by **Cisco** are reliable.
@@ -92,7 +94,7 @@ ISO/OSI 7-Layer-model - TCP/IP
 
 International Standards Organisation/ Open System Interconnections
 
-| Number | Layer          | Typical                 | TCP/IP              | Information             |
+| Number | Layer          | Typical                 | TCP/IP              | Additional information  |
 | :----- | :------------- | :---------------------- | :------------------ | :---------------------- |
 | 7      | Application    | Apps,WWW,Servers        | Process/Application |                         |
 | 6      | Presentation   | html, mp3, H.264, PGP   | Process/Application |                         |
@@ -108,3 +110,6 @@ International Standards Organisation/ Open System Interconnections
 
 Cisco says the one with the physical access to the device can do anything.
 So lock them away and keep the key secure.
+
+
+**End 14.02.2022**
