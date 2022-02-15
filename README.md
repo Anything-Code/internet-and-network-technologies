@@ -1,6 +1,8 @@
 # Internet & Network Technologies
 
-**Begin 14.02.2022**
+<b style="color:teal">
+Begin 14.02.2022
+</b>
 
 ## Standards
 
@@ -111,5 +113,79 @@ International Standards Organisation/ Open System Interconnections
 Cisco says the one with the physical access to the device can do anything.
 So lock them away and keep the key secure.
 
+<b style="color:teal">
+End 14.02.2022
+</b>
 
-**End 14.02.2022**
+<br>
+
+<b style="color:teal">
+Begin 15.06.2022
+</b>
+
+## Cisco Packet Tracer
+
+- Switch works once powers on the first time
+- Router (is a gateway to other networks) needs configuration the first time it starts up
+
+0/0/0 Router/MainModule/SubModule
+
+Physical/Logical Topology
+
+## That what we call a network
+
+### Packet oriented (packet switched)
+
+- Less resources needed
+- Flexible and scalable
+- Complex
+  - Media-Access-Control an Addressing needed
+  - Special Protocols for Administration (many!)
+  - Big to huge Overhead
+  - SLOW!!!
+- Standards mandatory
+
+MAC address and IP Address relationship is lost after 5 minutes.
+
+- Bus System (Token-Ring system)
+  - Echo
+  - Terminator (50 Ohm)
+
+### Requirements
+
+- Fast (Data rate "Bits/sec")
+  - Unpack (ethernet) frame & repack frame is slow
+- Fast (Latency/ "Ping-rate")
+- Save (Hacker, Malware...)
+- Save (Fault tolerance)
+- Stability/reliability (up-time)
+- Scalable (able to grow)
+- Open (Standard)
+- Less total costs (cost of ownership)
+- Able to administrate or all automatic
+
+### Network types
+
+- Mainframe with Terminals (Serial) old!!!
+- Field-busses (RS485, CAN-Bus, Profibus, KNX, I2C, ...) (connection between screen and pc)
+- Interfaces (RS232, SATA, USB, IEEE1394, NFC, ...)
+- Proprietary networks (many field-busses)
+- Infrastructure networks
+- AD-HOC-Networking
+
+Bigger packets/chunks take priority
+
+### Physical topologies
+
+- Bus
+- Star
+- Extended star
+- Hierarchical
+- Ring, double ring
+- Mesh
+- Cellular
+- Irregular
+
+<b style="color:teal">
+End 15.06.2022
+</b>
