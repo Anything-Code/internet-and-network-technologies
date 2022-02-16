@@ -189,3 +189,52 @@ Bigger packets/chunks take priority
 <b style="color:teal">
 End 15.06.2022
 </b>
+
+<b style="color:teal">
+Begin 16.06.2022
+</b>
+
+## Topologies
+
+![Topologies](./img/topologies.jpg)
+
+### Ring or double ring
+
+- Ring (A describes direction of flow)
+- Ring (B describes direction of flow)
+- There are multiple rings for fallback reasons
+
+## Terms
+
+- BNC (British Navy Connector)
+- Switches can be combinations between switches and routers
+
+## Features of routers
+
+- Routers can measure the load on cables and then perform load balancing
+
+![Infrastructure](./img/infrastructures.jpg)
+
+## Features of cables
+
+### U/UTP (Unshielded twisted pairs)
+
+- Typically green, blue, orange, brown colors
+- Problem crosstalk: Prevent the cables from touching one-another
+
+### F/UTP (Foiled UTP)
+
+- Foil around the cable
+- Good isolation from outside but does not prevent crosstalk
+
+### U/FTP (Foiled twisted pairs)
+
+- Foil around each pair
+
+### SF/UTP (Shielded & Foiled UTP)
+
+### S/FTP (Shielded FTP cable)
+
+<b style="color:teal">
+End 16.06.2022
+</b>
