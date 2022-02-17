@@ -238,3 +238,106 @@ Begin 16.06.2022
 <b style="color:teal">
 End 16.06.2022
 </b>
+
+<b style="color:teal">
+Begin 17.06.2022
+</b>
+
+## Wired pairs
+
+### RJ45 (Registrated Jack)
+
+- A jack with 8 pins
+
+#### Telephone outputs
+
+- 3, 4 pin
+
+- Telefax outputs
+
+#### Ethernet is applied in the (extended) star topology
+
+- 1, 2, 3, 6
+
+#### Vectoring
+
+- Prevention of crosstalk by removing concurrency
+- Like a scheduler
+
+### Cables
+
+#### Patch cable
+
+DCE - DTE for Star topology
+
+1 to 1
+2 to 2
+3 to 3
+4 to 4
+5 to 5
+6 to 6
+7 to 7
+8 to 8
+
+#### Cross over or X over cable
+
+DTE - DTE
+DCE - DCE
+
+1 to 3
+2 to 6
+3 to 1
+4 to 4
+5 to 5
+6 to 1
+7 to 7
+8 to 8
+
+### Signal interferences
+
+- NEXT/FEXT (Crosstalk)
+- ACR = Amplitude vs. Crosstalk relationship
+- Attenuation
+- DC-Potentials
+- Interferences (LF, RF)
+- Propagation Delay
+- Noise (thermal - Brown movement) SNR
+
+### Benefits of gold
+
+1. No corrosion
+2. Soft material so it can be formed a little on connection to make the surface area bigger
+
+## Optical fiber
+
+- Polymere -> TOS-Link (Audio-AC3...)
+- Glass:
+  - Multimode Step-Index
+  - Multimode Gradient-Index
+  - Singlemode (mono-mode)
+  - Advantage:
+    - Galvanical insulation
+    - EMF/RF-resistance
+  - Disadvantage:
+    - Complex and expensive
+    - Mechanical weak
+
+### Features
+
+- Diameter (125 micrometers)
+- Single-Mode (Step-index => Inside diameter is 9 micrometers)
+- Multi-Mode
+  - Step-index (Diameter => 62,5 micrometers)
+  - Gradient-index (Diameter => 50 micrometers)
+- Ping time slower than copper
+- Throughput is larger than copper
+- Max length is much higher than copper cables => less repeaters
+
+#### Glass types
+
+- Inner glass (core-glass)
+- Outer glass (cladding glass)
+
+<b style="color:teal">
+End 17.06.2022
+</b>
