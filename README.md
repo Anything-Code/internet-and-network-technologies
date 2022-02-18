@@ -257,6 +257,7 @@ Begin 17.06.2022
 
 #### Ethernet is applied in the (extended) star topology
 
+- Jack is called RG45
 - 1, 2, 3, 6
 
 #### Vectoring
@@ -340,4 +341,91 @@ DCE - DCE
 
 <b style="color:teal">
 End 17.06.2022
+</b>
+
+<b style="color:teal">
+Begin 18.06.2022
+</b>
+
+## Step-index multimode fibre
+
+### Advantage
+
+- Simple to splice
+- Simple and cheap connectors
+- Cheap active components (LED)
+
+### Disadvantage
+
+- Short distances (< 1km)
+- Low bandwidth (< 1Gbit/s lengths < 100m)
+- No WDM possible
+
+### Used for
+
+- Backbone - inside buildings old!!!
+- Not for new installations!!!
+
+### Why not in use anymore?
+
+![Mode-dispersion](./img/mode-dispersion.jpg)
+
+## Gradient-index-multimode fibre
+
+### Advantages
+
+- Simple and cheap jacks
+- Cheap active components (LED)
+- Higher bandwidth (< Tbit/s)
+
+### Disadvantages
+
+- More complex to splice
+- Short distances (< 3km)
+- No WDM possible
+
+### Used for
+
+- Backbone - Inside and outside buildings
+- Standard fiber for campus and companies
+
+## What is a mode (Single-mode/Multi-mode)?
+
+- A path for light to travel
+
+## (Mono-) Single-mode fibre+
+
+### Advantage
+
+- Long distances (w/o repeater 70km)
+- Biggest bandwidth (> 1Ebit/s)
+- WDM is possible
+
+### Disadvantage
+
+- Expensive active components (Laser)
+- Extremely difficult to splice
+- High accuracy needed
+
+### Used for
+
+- Long distances - WAN/Trans-Ocean
+- More often: Indoor/LAN/Backbone
+- Fibre of the future - for all purposes!!!
+
+## Fiber jacks
+
+### Standard
+
+- T-SC (Duplex)
+- LC (Duplex)
+
+![Optical-jacks](./img/optical-jacks.jpg)
+
+### Long distance fiber architecture
+
+![Long distance fiber architecture](./img/long-distance-optical-architecture.jpg)
+
+<b style="color:teal">
+End 18.06.2022
 </b>
