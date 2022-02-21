@@ -429,3 +429,31 @@ Begin 18.06.2022
 <b style="color:teal">
 End 18.06.2022
 </b>
+
+<b style="color:teal">
+Begin 21.06.2022
+</b>
+
+## Laserlink - optical roof to toof
+
+### Highlights Mehrstrahlsysteme
+
+- 16-fache Ausfallsicherheit (4 Tx und 4 Rx)
+- Automatische Dämpfungskontrolle
+- Autotracking für temperaturbedingte Verbiegung oder gebäudebedingte Schwankung
+- Glasfaserschnittstelle
+- SNMP-Management
+
+Optical transmission is good in a fiber. Not in the air.
+
+![EM-Spectrum](./img/em-spectrum.png)
+
+## Encoding
+
+![Data-rates](./img/data-rates.png)
+
+### XOR = Controlled inverter in signaling clock and data
+
+<b style="color:teal">
+End 21.06.2022
+</b>
