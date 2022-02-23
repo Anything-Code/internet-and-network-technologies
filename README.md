@@ -448,12 +448,127 @@ Optical transmission is good in a fiber. Not in the air.
 
 ![EM-Spectrum](./img/em-spectrum.png)
 
-## Encoding
+## Coding
 
 ![Data-rates](./img/data-rates.png)
 
 ### XOR = Controlled inverter in signaling clock and data
 
+## Clock
+
+![Clock](./img/clock.png)
+
 <b style="color:teal">
 End 21.06.2022
+</b>
+
+<b style="color:teal">
+Begin 22.06.2022
+</b>
+
+## Transmission-codes
+
+### 3 wishes
+
+- Get bits countable (clock)
+- High frequencies
+- DC-voltage free
+
+### DC = Gleichstrom
+
+![Transmission-codes](./img/transmission-codes.png)
+
+### Manchester
+
+- Best-case 5mhz
+- Best-case 10mhz
+- Only used for low frequency transmission
+
+### Harmonics
+
+- Always * 3 per harmonic
+- 10mhz * 3 = 30mhz per gained harmonic
+
+### Bit/BAUD-rate
+
+![Bit-BAUD](./img/bit-baud.png)
+
+### 2B1Q
+
+![2B1Q](./img/2B1Q.png)
+
+## Modulations
+
+- Baseband, No carrier -> Coding only
+- Amplitude-modulation AM
+- Frequency-modulation FM
+- Phase-shift modulation PM
+- Single-side-band-modulation SSB
+- Binary-phase-shift-keying BPSK
+- Quadratary-phase-shift-keying BPSK
+- Quadratur-amplitude-modulation (D-)QAM
+- Spread spectrum, DSSS, UWB...
+
+<b style="color:teal">
+End 22.06.2022
+</b>
+
+<b style="color:teal">
+Begin 23.06.2022
+</b>
+
+## Two-way-transmissions
+
+### Simplex (One by one, 1 way)
+
+- CB/Ham-Radio
+- Railway with one rail only
+- 10base2
+- 10base5
+- WIFI!!!
+- (All cell-based)
+
+### Half-duplex (One by one, 2 ways)
+
+- Radio with separated Transmitter and receiver, but only one antenna
+- 10/100baseT with Hub
+
+### Full-duplex (Parallel speaking, 2 ways)
+
+- Telephone
+- Railway with two rails
+- 10/100/1000baseT with crossover or switch
+- 10/100/1000baseFx
+- optical fiber
+- ring-system
+
+### Cast (One way only!!!, 1 way)
+
+- Radio
+- TV
+- DAB
+- DVB
+- NO WAY BACK!!!
+- (Unicast [Singlecast], Multicast, Broadcast)
+
+## Media-access-control-systems (Layer 2)
+
+- ALOHA (Listen before transmit...)
+- CSMA/CD (Ethernet)
+- CSMA/CA (WIFI)
+  - Carrier Sense Multiple Access/Collision Avoidance
+- Token-passing (Token-Ring, FDDI)
+- Time-slot (GSM/Sensor networks)
+- Master/Slave (WIFI [RTS, CTS], Bluetooth)
+- Priority (CAN-Bus)
+
+## Light needs no medium
+
+![Proof](./img/proof-of-light-has-no-medium.jpg)
+
+- There is no medium in that formula
+- So light does not need a medium
+
+<b style="color:teal">
+End 23.06.2022
 </b>
