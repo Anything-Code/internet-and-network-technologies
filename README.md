@@ -572,3 +572,29 @@ Begin 23.06.2022
 <b style="color:teal">
 End 23.06.2022
 </b>
+
+<b style="color:teal">
+Begin 23.06.2022
+</b>
+
+## Ethernet
+### First idea (10 base 5 = About 500 meters)
+
+
+![Ethernet first idea](./img/ethernet-first-idea.png)
+
+### 10 base 2 = About 200 meters
+
+- 185m Coaxial RG58 - 50Ohm
+- Maximum 30 stations/segments
+- Bus - no extensions!
+- Min. distance between two stations
+
+### 10/100 base Tx
+
+- 100m TwistedPair - Cat. 5-8 100Ohm
+- Star - Extended star
+
+<b style="color:teal">
+End 23.06.2022
+</b>
