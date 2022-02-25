@@ -574,7 +574,7 @@ End 23.06.2022
 </b>
 
 <b style="color:teal">
-Begin 23.06.2022
+Begin 24.06.2022
 </b>
 
 ## Ethernet
@@ -596,5 +596,48 @@ Begin 23.06.2022
 - Star - Extended star
 
 <b style="color:teal">
-End 23.06.2022
+End 24.06.2022
+</b>
+
+<b style="color:teal">
+Begin 25.06.2022
+</b>
+
+## MAC-Adresses
+
+- Also known as hardware-address or physical-address
+- 48 Bit-Number (6 Byte) normally written in Hex
+- 2^48 combinations -> 281x10^12 MAC-Addresses (2 per 1m^2 land-surface at Planet Earth)
+- Combined from Organizationally Unique Identifier and sequential number (Device No. 0,1,2,3,...)
+- The OUI will be given by the IEEE (Institute of Electrical and Electronic Engineers)
+- Broadcast-address: ff ff ff ff ff ff = 111111111111111111111111111111111111111111111111
+
+![MAC-Addresses](./img/mac-addresses.png)
+
+## Ethernet-bridges
+
+- Segmentation = Parallelisation!!!
+- Layer2 device means: will make decisions based on MAC addresses
+- It‘s a „smart filter“ for frames
+- “transparent” (can’t be seen by other
+- Generates and uses MAC address tables
+  - Will be learned by listening to incoming frames
+  - Each entry not in use for 300s will be deleted
+- Today normally as a function in other devices
+- Forward all MAC broadcasts (Broadcast Domain)
+
+## Ethernet-Switches
+
+- „real name“: Ethernet Switching Hub
+- Also called: „Multiport Bridge“ (same rules)
+- Hardware based
+- ONLY Switches → „micro segmentation“
+- Switching Modes:
+  - Store and Forward
+  - Cut Through
+    - Fragmet free
+    - Fast Forward
+
+<b style="color:teal">
+End 25.06.2022
 </b>
