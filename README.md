@@ -638,6 +638,8 @@ Begin 25.06.2022
     - Fragmet free
     - Fast Forward
 
+![Switching-modes](./img/switching-modes.png)
+
 <b style="color:teal">
 End 25.06.2022
 </b>
