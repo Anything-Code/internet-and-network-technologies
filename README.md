@@ -643,3 +643,42 @@ Begin 25.06.2022
 <b style="color:teal">
 End 25.06.2022
 </b>
+
+<b style="color:teal">
+Begin 28.06.2022
+</b>
+
+## Spanning-Tree
+
+- Switches will forward Broadcast-Frames
+- Prevent switching loops
+- Provides redundant connections
+- Cuts the topology to what is really needed
+- Good for: redundancy, errors by devices/users
+
+With switching you want to stop data-collisions  
+With routing you want to stop broadcasting
+
+## VLANs
+
+![VLANs](./img/vlans.png)
+
+Trunk only understands trunk  
+Normal client Net-card cannot understand IEEE 802.1q
+
+## POE
+
+0. default 15,4 W 0.44 W to 12.95 W
+1. optional 4.0 W 0.44 W to 3.84 W
+2. optional 7.0 W 3.84 to 6.49 W
+3. optional 15.4 W 6.49 to 12.95 W
+4. optional (reserved) 15.4 W
+
+### modes
+
+![POE-modes](./img/poe-modes.png)
+![POE-injector](./img/poe-injector.png)
+
+<b style="color:teal">
+End 28.06.2022
+</b>
