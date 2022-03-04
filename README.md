@@ -682,3 +682,44 @@ Normal client Net-card cannot understand IEEE 802.1q
 <b style="color:teal">
 End 28.06.2022
 </b>
+
+<b style="color:teal">
+Begin 03.06.2022
+</b>
+
+## Checksums, FCS and Co...
+
+### Error-detection or Error-correction!?
+
+Which error will be recognised?
+
+What do we really need?
+
+- Parity
+- Field-parity
+- CRC (Cyclic Redundancy Check)
+- Internet-checksum
+- Hash
+
+![field-parity](./img/field-parity.png)
+
+Comes at a cost since the parity-bit is an increase in size of the payload
+
+<b style="color:teal">
+End 03.06.2022
+</b>
+
+<b style="color:teal">
+Begin 04.06.2022
+</b>
+
+## IP Addresses
+
+![IP-Addresses](./img/IP-addresses.png)
+![IP-Classes](./img/IP-Classes.png)
+![IP-Classes-d](./img/IP-Classes-d.png)
+![IP-Classes-e](./img/IP-Classes-e.png)
+
+<b style="color:teal">
+End 04.06.2022
+</b>
