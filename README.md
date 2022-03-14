@@ -723,3 +723,87 @@ Begin 04.06.2022
 <b style="color:teal">
 End 04.06.2022
 </b>
+
+## Some exam topics
+
+- Optical fiber types (Wavelengths)
+- Simplex, Duplex
+- Crossover/Patch cable
+- static, dynamic, internal, external routing
+- OSI-Model encaplsulation order
+
+<b style="color:teal">
+Begin 15.06.2022
+</b>
+
+- IPv6 Addreses & Subnetting is part of exam
+- Routing no hardware address needed
+
+## Routing
+
+### Routers (Nodes inside the internet-network)
+
+- Work with routing-tables
+
+### Jobs of routing
+
+1. Communication between routers (How to speak to each other)
+2. How to calculate the best path between routers
+
+- Static manually by administrator
+- Dynamic automatically by routing-protocol
+  - Internal IGE
+  - External EGE
+
+### Types
+
+#### Distance-Vector (RIP, IGPR...)
+
+- Scheduled broadcasts (30s) to all routers to update
+  - E.g. company-network with no change of information for a long time. There are a lot of same payloads every 30s
+- Nice for private use (corporate not consumer)
+
+#### Hybrid (EIGRP...)
+
+- Often used internally
+- E.g.: Communication over link state but calculation by distance vector
+
+#### Link-State (OSPF, BGP [Border Gateway Protocol]...)
+
+- Communication only on change of topology
+  - This is called flooding
+  - Recalculating takes a few seconds
+
+- Routers need much more cpu-power
+- Routers knows the whole topology of the network
+
+### Routing examples
+
+![Routing easy](./img/routing1.png)
+
+- Router knows the ip-address of Network 1 and 2 because it is part of both
+
+![Routing harder](./img/routing2.png)
+
+#### What to do if you want to communicate between Networks?
+
+- Manual configure the ip-address of the networks within the routers
+
+### Default route
+
+![Default-route](./img/default-route.png)
+
+### Routing Tables
+
+![Routing tables](./img/routing-tables.png)
+
+### Remarks
+
+- **No** user-data transported
+- Only **how** to do it
+- No flatrate between providers. Payed by bit
+- No routing-protocol needed for routing within directly connected networks
+
+<b style="color:teal">
+End 15.06.2022
+</b>
