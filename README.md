@@ -738,6 +738,7 @@ Begin 15.06.2022
 
 - IPv6 Addreses & Subnetting is part of exam
 - Routing no hardware address needed
+- Wave-length division multiplexing
 
 ## Routing
 
@@ -762,6 +763,11 @@ Begin 15.06.2022
 - Scheduled broadcasts (30s) to all routers to update
   - E.g. company-network with no change of information for a long time. There are a lot of same payloads every 30s
 - Nice for private use (corporate not consumer)
+- RIP cannot work with different types of cables
+- RIP is load balancing (round-robin). In case one connection breaks down.
+- RIP can only work with 1-16 hops. So 17-* is not reachable
+- RIP only knows HOP-count (Uses the connection with the smallest HOP-count)
+- RIP can only talk to RIP (Same protocols must be used on both ends)
 
 #### Hybrid (EIGRP...)
 

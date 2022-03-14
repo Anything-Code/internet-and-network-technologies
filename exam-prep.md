@@ -1,8 +1,8 @@
 # Preparation of exam
 
-Find out on a /30 Network: Host / Subnet / Broadcast
+### Find out on a /30 Network: Host / Subnet / Broadcast
 
-Create a Subnet! Given: Network with mask and minimum of Hosts or Subnets wanted.
+### Create a Subnet! Given: Network with mask and minimum of Hosts or Subnets wanted.
 
 Find out: which Class / Public or Private / are there any special functions?
 
@@ -47,7 +47,19 @@ ISO/OSI-Model: Layers and Encapsulation
 
 Typical „Problem-maker“-Protocols
 
+- Protocols that make use of broadcasts like
+  - ARP
+  - SNMP
+  - RIP
+- Too many broadcasts. If broadcasts would be omitted we could use only switches worldwide
+
 AWG-Sizes for Ethernet
+
+- AWG 23, 22
+- About the gauge of the cable
+- Influences the max available current
+- Interesting for PoE
+- Not interesting for patch-cable (Maybe about the resistance)
 
 Spanning-Tree-Protocol: Advantages and Disadvantages?
 
