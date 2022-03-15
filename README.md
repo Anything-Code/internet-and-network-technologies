@@ -317,7 +317,7 @@ DCE - DCE
   - Multimode Gradient-Index
   - Singlemode (mono-mode)
   - Advantage:
-    - Galvanical insulation
+    - Galvanic insulation
     - EMF/RF-resistance
   - Disadvantage:
     - Complex and expensive
@@ -603,7 +603,7 @@ End 24.06.2022
 Begin 25.06.2022
 </b>
 
-## MAC-Adresses (Layer 2)
+## MAC-Addresses (Layer 2)
 
 - Also known as hardware-address or physical-address
 - 48 Bit-Number (6 Byte) normally written in Hex
@@ -635,7 +635,7 @@ Begin 25.06.2022
 - Switching Modes:
   - Store and Forward
   - Cut Through
-    - Fragmet free
+    - Fragment free
     - Fast Forward
 
 ![Switching-modes](./img/switching-modes.png)
@@ -730,13 +730,13 @@ End 04.06.2022
 - Simplex, Duplex
 - Crossover/Patch cable
 - static, dynamic, internal, external routing
-- OSI-Model encaplsulation order
+- OSI-Model encapsulation order
 
 <b style="color:teal">
 Begin 14.06.2022
 </b>
 
-- IPv6 Addreses & Subnetting is part of exam
+- IPv6 Addresses & Subnetting is part of exam
 - Routing no hardware address needed
 - Wave-length division multiplexing
 
@@ -807,7 +807,7 @@ Begin 14.06.2022
 
 - **No** user-data transported
 - Only **how** to do it
-- No flatrate between providers. Payed by bit
+- No Flatrate between providers. Payed by bit
 - No routing-protocol needed for routing within directly connected networks
 
 <b style="color:teal">
@@ -888,7 +888,7 @@ If MTU-Size is reached TCP will be used (About 1.4kb)
 
 ### UDP
 
-- Non reliable --> no ackowledge!
+- Non reliable --> no acknowledge!
   - Multicasting only here possible!!!
     - TFTP (Trivial File Transfer Protocol)
     - SNMP (Simple Network Management Protocol)
@@ -911,7 +911,7 @@ If MTU-Size is reached TCP will be used (About 1.4kb)
 
 E-Mail is using TCP
 
-### Layer-4-Addresssystem - Ports
+### Layer-4-Address-System - Ports
 
 - Used by UDP and TCP
 - Addresses application or services
@@ -941,7 +941,7 @@ E-Mail is using TCP
 
 ![Sliding window](./img/sliding-window.png)
 
-### Bahavior if transmission fails
+### Behavior if transmission fails
 
 ![Transmission failed](./img/transmission-failed.png)
 
@@ -1001,7 +1001,7 @@ E-Mail is using TCP
 
 ### Redirector (Requester)
 
-- The Redirector is a protocol, working with Computer opertingsystems and network clients. NOT with specialised applications!
+- The Redirector is a protocol, working with Computer Operating-systems and network clients. NOT with specialised applications!
 
 - Apple File Protocol
 - NetBIOS Extended User Interface (NetBEUI)
