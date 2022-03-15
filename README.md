@@ -916,10 +916,134 @@ E-Mail is using TCP
 - Used by UDP and TCP
 - Addresses application or services
 - IP and Port --> Socket
-- RFC1700:
+- RFC1700 (Request for command):
   - 0-255 Public Applications
   - 256-1023 Commercial Applications
   - 1024-65535 Not defined (but some there are registered - means fixed!)
+
+#### Well known ports
+
+![Well-known-ports](./img/well-known-ports.png)
+
+### Three-Way-Handshaking
+
+![Three-way-handshake](./img/three-way-handshake.png)
+
+### Establish TCP-connection
+
+![Establish-tcp-connection](./img/establish-tcp-connection.png)
+
+### TCP handshaking
+
+![Tcp-handshaking](./img/tcp-handshaking.png)
+
+### Sliding window
+
+![Sliding window](./img/sliding-window.png)
+
+### Bahavior if transmission fails
+
+![Transmission failed](./img/transmission-failed.png)
+
+### Sliding window in real
+
+![Real sliding window](./img/real-sliding-window.png)
+
+## Session Layer (Layer 5)
+
+- The session-layer establish sessions between applications, control and close them.
+- Dialog control:
+  - TWS --> Two way simultaneous
+    - Must be controlled by higher layers!
+    - Possible L-5-Collisions (logical collisions)
+  - TWA --> Two way alternate
+    - Uses tokens
+
+### Dialog separation
+
+![Dialog seperation](./img/dialog-seperation.png)
+
+### Session-Layer protocols
+
+- Network File System (NFS)
+- Structured Query Language (SQL)
+- Remote Procedure Call (RPC)
+- X Window System
+- AppleTalk Session Protocol (ASP)
+- Digital Network Architecture Session
+- Control Protocol (DNA SCP)
+
+## Presentation-Layer (Layer 6)
+
+- Data formatting (mark-up)
+  - HTML, ASCII, Unicode, PDF, PS...
+- Data encryption
+  - PGP, ...
+- Data compression (Also called codec)
+  - JPEG, MPEG, mp3, Zip, RAR, PDF, PS...
+
+## Application-Layer (Layer 7)
+
+- Software, services, www, ...
+- Synchronisation between corresponding applications
+- Control of Data integrity (software dependent)
+
+### Typical L7-Applications
+
+- Client/Server
+- Redirector (Network drives, Printers)
+- Classic internet: E Mail, Telnet, FTP, …
+- HTTP and Domain Name System (DNS)
+  - = WWW
+- User control (e.g. MS AD)
+- Database
+- Remote control (remote desktop)
+
+### Redirector (Requester)
+
+- The Redirector is a protocol, working with Computer opertingsystems and network clients. NOT with specialised applications!
+
+- Apple File Protocol
+- NetBIOS Extended User Interface (NetBEUI)
+- IPX/SPX Protocols from Novell
+- Network File System (NFS) from TCP/IP Protocol-stack
+- Microsoft Printing
+
+### L7-connections (sessions)
+
+- This is NOT a L5-Session
+- Lots of temporarily connections:
+  - E.g.: Webbrowser
+- There are some longer connections only
+  - E.g.: Telnet/Teams
+
+### LHC - CERN start of www
+
+![Cern](img/cern.png)
+
+### First web-page 1991-08-06
+
+![First web-page](./img/first-web-page.png)
+
+### DNS
+
+- Translate URLs into IP Addresses.
+- First look to own table if no entry:
+- Ask next higher DNS server
+- Worldwide 13 Root Server only.
+  - 10 USA, 1 Stockholm, 1 London, 1 Tokyo
+
+Each provider must have at least two independent DNS Servers…
+
+## Additional topics...
+
+- etxtended Switching and Routing
+- Firewalls / ACL
+- xDSL / WAN…
+- WIFI / Bluetooth / WIMAX / LoRaWAN
+- 2G / 3G / 4G / 5G
+- SDN / SDW
+- Analyze Networks e.G. by WireShark
 
 <b style="color:teal">
 End 15.06.2022
