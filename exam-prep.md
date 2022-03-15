@@ -2,7 +2,8 @@
 
 ### Find out on a /30 Network: Host / Subnet / Broadcast
 
-### Create a Subnet! Given: Network with mask and minimum of Hosts or Subnets wanted.
+
+### Create a Subnet! Given: Network with mask and minimum of Hosts or Subnets wanted
 
 Find out: which Class / Public or Private / are there any special functions?
 
@@ -28,6 +29,17 @@ Switching-Modes: Advantages and disadvantages?
 How a router is doing routing?
 
 Special IPv6-Adresses: (local host, internet, private IP, APIPA, multicasts)
+
+
+| -                                  | -                |
+| :--------------------------------- | :--------------- |
+| Not defined =*                     | ::               |
+| Loopback (localhost)               | ::1              |
+| IPv4(e.g. 192.168.1.2)             | ::FFFF:C0A8:0102 |
+| Global publicIP                    | 2000:: - 3FFF::  |
+| Unique Local Unicast private IP    | FC00:: - FDFF::  |
+| Linklocal/auto-configuration APIPA | FE80:: - FEBF::  |
+| Multicast                          | FF00:: - FFFF::  |
 
 Optical fibres: how to use it in-house
 
@@ -72,5 +84,7 @@ VLAN: what must be configured on a Switch?
 How many bits per BAUD if binary, QPSK, D-QAM-16, D-QAM-64, D-QAM-256, or … is used?
 
 Which type of Ethernet-Cable (Cat 5, 5e, 6, 6e, 7, …) do you choose for cabeling a new big office?
+
+- Cat 8, since it is the newest category with the best performance and the biggest possible throughput
 
 IPv6: create Subnets for private network (15 / 255 / 65k / … Hosts)

@@ -603,7 +603,7 @@ End 24.06.2022
 Begin 25.06.2022
 </b>
 
-## MAC-Adresses
+## MAC-Adresses (Layer 2)
 
 - Also known as hardware-address or physical-address
 - 48 Bit-Number (6 Byte) normally written in Hex
@@ -713,7 +713,7 @@ End 03.06.2022
 Begin 04.06.2022
 </b>
 
-## IP Addresses
+## IP Addresses (Layer 3)
 
 ![IP-Addresses](./img/IP-addresses.png)
 ![IP-Classes](./img/IP-Classes.png)
@@ -733,7 +733,7 @@ End 04.06.2022
 - OSI-Model encaplsulation order
 
 <b style="color:teal">
-Begin 15.06.2022
+Begin 14.06.2022
 </b>
 
 - IPv6 Addreses & Subnetting is part of exam
@@ -809,6 +809,117 @@ Begin 15.06.2022
 - Only **how** to do it
 - No flatrate between providers. Payed by bit
 - No routing-protocol needed for routing within directly connected networks
+
+<b style="color:teal">
+End 14.06.2022
+</b>
+
+<b style="color:teal">
+Begin 15.06.2022
+</b>
+
+## General
+
+- Email was only a telnet-session
+- First E-Mail servers were in usa (Eg.: AOL)
+
+## Tier 1 club
+
+- They are responsible for the long-distance cables (The backbone of the internet)
+- In germany DeCIX is a central gateway (service provider) (bad)
+
+## Tier 3
+
+- Provider-Network
+
+## Tier 4
+
+- Consumer connection to provider
+
+## What happens during a ping
+
+### 1st Hop
+
+#### IP
+
+Client to NAT router
+
+(NAT is the border between private and public networks - so only 1 change of IP-S and IP-D (content of packet) with 1 NAT - MAC address S and D changes with each physical hop)
+
+- Source: 172.21.156.85
+- Destination: 172.217.18.99
+
+#### MAC (Frame)
+
+Client to client
+
+- S: MAC-Address A
+- D: MAC-Address B
+
+### 2nd Hop
+
+#### IP
+
+NAT router to client
+
+- Source: 172.21.156.85
+- Destination: 172.217.18.99
+
+#### MAC (Frame)
+
+Client to client
+
+- S: MAC-Address A
+- D: MAC-Address B
+
+## Transport Layer (Layer 4)
+
+- Non reliable (UDP)
+  - User Datagram Protocol
+    - Must be transmitted as "it is"!!! --> Datagrams
+    - MTU-Size!!! (Maximum Transmission Unit - Payload-Size of IP-Packet)
+    - Data is called **Datagram**
+- Reliable (TCP)
+  - Transmission Control Protocol
+    - Able to be split in segments. --> Segments
+    - Data is called **Segment**
+
+If MTU-Size is reached TCP will be used (About 1.4kb)
+
+### UDP
+
+- Non reliable --> no ackowledge!
+  - Multicasting only here possible!!!
+    - TFTP (Trivial File Transfer Protocol)
+    - SNMP (Simple Network Management Protocol)
+    - DHCP (Dynamic Host Control Protocol)
+    - DNS (Domain Name System) if message shorter 1 IP Packet
+    - Broadcasts
+    - VoIP / IP Audio / IP TV
+
+![Datagram](./img/datagram.png)
+
+- Reliable acknowledges / Data flow control
+  - Three Way Handshaking / Sliding Windowing
+  - FTP (File Transfer Protocol)
+  - HTTP (Hypertext Transfer Protocol)
+  - SMTP (Simple Mail Transfer Protocol)
+  - Telnet…
+  - DNS if message bigger 1 IP Paket
+
+![Segmnet](./img/segment.png)
+
+E-Mail is using TCP
+
+### Layer-4-Addresssystem - Ports
+
+- Used by UDP and TCP
+- Addresses application or services
+- IP and Port --> Socket
+- RFC1700:
+  - 0-255 Public Applications
+  - 256-1023 Commercial Applications
+  - 1024-65535 Not defined (but some there are registered - means fixed!)
 
 <b style="color:teal">
 End 15.06.2022
