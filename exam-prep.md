@@ -26,12 +26,15 @@ Letzteres ist heutzutage nicht mehr notwendig, dank der Auto Uplink-Technologie.
 
 #### LAN
 
+- Router
+- Switch
 - Ethernet
 - Wifi
 - Optical fiber (9/125, 50/125, 62.5/125)
 
 #### WAN
 
+- Router
 - Optical fiber (9/125)
 
 ### What do you need to configure when you want PCs to communicate in a LAN?
@@ -84,9 +87,11 @@ Letzteres ist heutzutage nicht mehr notwendig, dank der Auto Uplink-Technologie.
 
 ### Idea of RIP-Routing
 
-**Metric / Administrative distance**
+**Metric / Administrative distance** (For Routing protocols)
 
-**Function of TTL**
+### Function of TTL
+
+A field that specifies the number of hops a packet may travel. This number is decreased by one as the packet travels through a router. When the counter reaches zero the packet is discarded. This prevents packets from looping endlessly.
 
 ### Function of loopback
 
@@ -146,10 +151,21 @@ STP offers various backups that become active when the main connection experienc
 
 - Power over Ethernet
 - Used to power devices over current transported over ethernet-cables
+- Modes:
+  - Spare-pair injection (A)
+  - Phantom injection (B)
+- High current requires high AWG (Big gauge)
 
-**Normal function of a Switch: destination unknown / too long time no transmissions / …**
+### Normal function of a Switch: destination unknown / too long time no transmissions / …
+
+- Unknown Unicast: When a switch receives a unicast frame for a destination for which the switch has no entry in its MAC table then the switch simply broadcasts the frame through all ports. This is known as flooding.
+- Longer than 300s no transmission: Entry in MAC-table (CAM (Content Addressable Memory)) gets removed
 
 **VLAN: what must be configured on a Switch?**
+
+- Static (Manual per Port)
+- Dynamic
+  - Similar to dhcp
 
 ### How many bits per BAUD if binary, QPSK (2), D-QAM-16, D-QAM-64, D-QAM-256, or … is used?
 
